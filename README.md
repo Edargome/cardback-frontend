@@ -3,9 +3,6 @@
 
 # README para el repo **cardback-frontend** (Frontend)
 
-> Copia y pega esto como `README.md` en: `https://github.com/Edargome/cardback-frontend` :contentReference[oaicite:5]{index=5}
-
-```md
 # cardback-frontend — React (Vite) para CardBack API
 
 Frontend en **React + Vite** para consumir la API **CardBack**:
