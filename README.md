@@ -1,16 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# README para el repo **cardback-frontend** (Frontend)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Copia y pega esto como `README.md` en: `https://github.com/Edargome/cardback-frontend` :contentReference[oaicite:5]{index=5}
 
-## React Compiler
+```md
+# cardback-frontend — React (Vite) para CardBack API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend en **React + Vite** para consumir la API **CardBack**:
+- Login / Refresh Token
+- CRUD de Cards (listar, crear, eliminar)
+- Transactions: crear pago + histórico (global y por tarjeta)
 
-## Expanding the ESLint configuration
+Estructura base del repo: `public/`, `src/`, `vite.config.js`, `package.json`. :contentReference[oaicite:6]{index=6}
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Requisitos
+
+- Node.js 18+ (recomendado)
+- Backend corriendo (repo: https://github.com/Edargome/CardBack)
+
+---
+
+## Configuración
+
+### URL del Backend
+Crea un archivo `.env.local` en la raíz:
+
+```env
+VITE_API_BASE_URL=http://localhost:5256
