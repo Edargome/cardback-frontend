@@ -14,10 +14,17 @@ Estructura base del repo: `public/`, `src/`, `vite.config.js`, `package.json`. :
 
 ---
 
-## Requisitos
+## Requisito de Node (importante)
 
-- Node.js 18+ (recomendado)
-- Backend corriendo (repo: https://github.com/Edargome/CardBack)
+Este proyecto usa **Vite v6**, por lo tanto **NO es compatible con Node 18**.
+
+### Versiones soportadas
+- **Node.js 20.19+** o
+- **Node.js 22.12+** (recomendado)
+
+Si intentas ejecutar con Node 18, verás errores como:
+- `Vite requires Node.js version 20.19+ or 22.12+`
+- `TypeError: crypto.hash is not a function`
 
 ---
 
